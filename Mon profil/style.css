@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#3d96e3, #ffb9b9);
+    margin: 0;
+}
+.titre{
+    margin: 15px;
+    margin-left: 25px;
+    float: left;
+}
+.contenue{
+    text-align: center;
+    vertical-align: middle;
+    float: right;
+    display: none;
+    margin-right: 15px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+section{
+    align-items: center;
+    display: inline-flex;
+    border-radius: 12px;
+    text-align: center;
+    margin:0px 25px 15px 25px;
+    background-color: white;
+}
+.ligne{
+    height: 70px;
+    border-right: solid 2px #86BEEF;
+    margin-right: 15px;
+}
+#presentation{
+    margin-top: 50px;
+    display: block;
+}
+h1{
+    font-size: 32px;
+    padding-top: 25px;
+}
+a::selection,h1::selection,h3::selection,p::selection{
+    background-color: #86BEEF;
+}
+a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #86BEEF;
+}
+a:hover{
+    font-weight: bold;
+    color: #86BEEF;
+    text-decoration: none;
+}
+#photo{
+    height: 180px;
+    border-radius: 150px;
+    transition: all 0.5s;
+}
+#photo:hover{
+    height: 280px;
+    border-radius: 8px;
+}
+#passion_foot{
+    margin-right: 40.5px;
+}
+#passion_auto{
+    margin-right: 49.5px;
+}
+#basket{
+    margin-right: 9px;
+}
+#foot{
+    margin-right: 30px;
+}
+.fleche{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    color: #86BEEF;
+    cursor: pointer;
+    border: none;
+    margin-right: 15px;
+}
+#but1_1,#but2_1,#but3_1{
+    display: none;
+}
+#wagon{
+    margin: 15px;
+    cursor: pointer;
+    background-color: #86BEEF;
+    border-radius: 8px;
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-color: #86BEEF;
+    border-style: none;
+    transition: all 0.5s;
+}
+#wagon:hover{
+    background-color: white;
+    border: solid 3px;
+    color: #86BEEF;
+}
+footer{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+.contact{
+    height: 35px;
+    margin: 10px;
+}

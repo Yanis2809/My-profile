@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap">
+    <title>Yanis Agharbi</title>
+</head>
+<body>
+    <section id="presentation">
+        <div>
+            <h1>Bonjour, je suis Yanis !</h1>
+            <img id="photo" alt="Portrait Yanis Agharbi" src="image/photo_yanis.jpg">
+            <p>Bonjour, je m'appelle Yanis Agharbi, je suis étudiant en 1ère de l'<a href="https://www.emlv.fr/" target="_blank">EMLV</a> et ceci est ma page de présentation.</p>
+            <button id="wagon" onclick="window.location.href = '#lien';">Découvrez le Wagon</button>
+            </div>
+    </section>
+    <ul>
+        <li>
+            <section>
+                <div class="titre">
+                    <h3 id="basket">Basketball 🏀</h3>
+                </div>
+                <span class="ligne"></span>
+                <div id="div1" class="contenue">
+                    <p id="passion_basket">Je suis passionné de Basketball et je supporte l'équipe de San Fransico, les <a href="https://www.warriors.com" target="_blank">Warriors</a>.</p>
+                </div>
+                <button id="but1_1" class="fleche" onclick="document.getElementById('div1').style.display = 'none'; document.getElementById('but1_1').style.display = 'none'; document.getElementById('but1_2').style.display = 'flex'">
+                    ‹
+                </button>
+                <button id="but1_2" class="fleche" onclick="document.getElementById('div1').style.display = 'flex'; document.getElementById('but1_1').style.display = 'flex'; document.getElementById('but1_2').style.display = 'none'">
+                    ›
+                </button>
+            </section>
+        </li>
+        <li>
+            <section>
+                <div class="titre">
+                    <h3 id="foot">Football ⚽</h3>
+                </div>
+                <span class="ligne"></span>
+                <div id="div2" class="contenue">
+                    <p id="passion_foot">Je suis passionné par le Football et je suis un fidèle supporter du <a href="https://www.fcbarcelona.fr/fr/" target="_blank">FC Barcelone</a>.</p>
+                </div>
+                <button id="but2_1" class="fleche" onclick="document.getElementById('div2').style.display = 'none'; document.getElementById('but2_1').style.display = 'none'; document.getElementById('but2_2').style.display = 'flex'">
+                    ‹
+                </button>
+                <button id="but2_2" class="fleche" onclick="document.getElementById('div2').style.display = 'flex'; document.getElementById('but2_1').style.display = 'flex'; document.getElementById('but2_2').style.display = 'none'">
+                    ›
+                </button>
+            </section>
+        </li>
+        <li>
+            <section>
+                <div class="titre">
+                    <h3 id="auto">Automobile 🏎️</h3>
+                </div>
+                <span class="ligne"></span>
+                <div id="div3" class="contenue">
+                    <p id="passion_auto">J'adore l'automobile et notamment les voitures de sport ainsi que la <a href="https://www.formula1.com/">Formule 1</a>.</p>
+                </div>
+                <button id="but3_1" class="fleche" onclick="document.getElementById('div3').style.display = 'none'; document.getElementById('but3_1').style.display = 'none'; document.getElementById('but3_2').style.display = 'flex'">
+                    ‹
+                </button>
+                <button id="but3_2" class="fleche" onclick="document.getElementById('div3').style.display = 'flex'; document.getElementById('but3_1').style.display = 'flex'; document.getElementById('but3_2').style.display = 'none'">
+                    ›
+                </button>
+            </section>
+        </li>
+    </ul>
+</body>
+<footer>
+    <div id="icone">
+        <a href="mailto:yanisagharb2004@gmail.com"><img class="contact" src="image/icone-gmail.png" alt="gmail"></a>
+        <a href="https://twitter.com/YanisAgharbi" target="_blank"><img class="contact" src="image/icone-twitter.png" alt="twitter"></a>
+        <a href="https://www.instagram.com/0_.yanis._0/" target="_blank"><img class="contact" src="image/icone-instagram.png" alt="instagram"></a>
+    </div>
+    <p id="signature">Yanis Agharbi, site officiel 2022<br>Tous droits réservés ©</p>
+</footer>
+</html>
